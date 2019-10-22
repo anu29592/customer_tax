@@ -1,0 +1,39 @@
+{
+    "devDependencies": {
+        "@babel/plugin-transform-object-assign": "^7.2.0",
+        "@babel/preset-env": "^7.3.1",
+        "@symfony/webpack-encore": "^0.22.0",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.1.3",
+        "date-input-polyfill": "^2.14.0",
+        "jquery": "^3.3.1",
+        "node-sass": "^4.11.0",
+        "sass-loader": "^7.0.1",
+        "vue": "^2.5.22",
+        "vue-loader": "^15.4.2",
+        "vue-router": "^3.0.2",
+        "vue-template-compiler": "^2.5.22",
+        "vuex": "^3.0.1",
+        "webpack-notifier": "^1.6.0"
+    },
+    "engines": {
+        "node": "11.7.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress",
+        "heroku-postbuild": "yarn encore production"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.2.5",
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "vue-analytics": "^5.16.2",
+        "vue-axios": "^2.1.4",
+        "vue-i18n": "^8.8.0",
+        "vuejs-datepicker": "^1.5.4"
+    }
+}

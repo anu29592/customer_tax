@@ -1,0 +1,6 @@
+{   
+    "plugins": ["@babel/plugin-transform-object-assign"],
+    "presets": [
+        ["@babel/preset-env", { "modules": false, "useBuiltIns": "usage" }],
+    ],
+}
